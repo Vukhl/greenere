@@ -435,6 +435,7 @@ a {
     padding-top: 116px;
     position: relative;
     gap: 78px;
+    padding-bottom: 129px;
 }
 .square2{
     text-align: center;
@@ -573,7 +574,6 @@ a {
 
 }
 .footer{
-    width: 1440px;
     padding-top: 116px;
 }
 .footer-box{
@@ -584,8 +584,113 @@ a {
     width: 1086px;
     padding-bottom: 45px;
     display: flex;
+    justify-content: space-around
 }
 .logo-footer{
     width: 327px;
-    
+}
+.logo-footer-text{
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 14px;
+    color: #335E74;
+    line-height: 173%;
+    padding-top: 12px;
+}
+.soc {
+    width: 181px;
+    display: flex;
+    gap: 11px;
+    padding-top: 19px;
+}
+.facebook{
+    background: #3A5B62;
+    width: 37px;
+    border-radius: 50%;
+    height: 37px;
+    text-align: center;
+}
+.soc a:not(:first-child){
+    border: 1px solid #d4dbdd;
+    border-radius: 50%;
+    height: 37px;
+    width: 37px;
+    text-align: center;
+}
+.soc img{
+    position: relative;
+    bottom: -8px;
+}
+.facebook img{
+    position: relative;
+    bottom: -10px;
+}
+.explore{
+    padding-bottom: 19px;
+    color: #264A51;
+    font-family: 'Mukta';
+    font-weight: 700;
+    font-size: 25px;
+
+}
+.Investigate h3{
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 30px;
+    color: #335E74;
+}
+.Contact{
+    width: 229px;
+
+}
+.Contact h1{
+    font-family: 'Mukta';
+    font-weight: 700;
+    font-size: 25px;
+    color: #264A51;
+    padding-bottom: 19px;
+}
+.Contact h3{
+    font-family: 'Mukta';
+    font-weight: 400;
+    font-size: 14px;
+    color: #335E74;   
+}
+.contact-us2{
+    padding-bottom: 20px;
+}
+.Hours{
+    width: 235px;
+}
+.Hours h1{
+    font-family: 'Mukta';
+    font-weight: 700;
+    font-size: 25px;
+    color: #264A51;
+    padding-bottom: 25px;
+
+}
+.Hours img{
+    background: #A0C7EA;
+    width: 215px;
+    height: 134px;
+    border-radius: 7px;
+    padding: 0px 0px 2px 19px;
+}
+.text-footer{
+    height: 40px;
+    margin: auto;
+    text-align: center;
+}
+.exit{
+    text-align: center;
+    font-family: 'Open Sans';
+    font-size: 10px;
+    line-height: 40px;
+    height: 40px;
+    width: 1860px;
+    background: #D3E2EF;
+    color: #335E74;
+    font-weight: 400;
 }
